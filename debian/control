@@ -1,0 +1,27 @@
+Source: node-browserify-rsa
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , node-bn.js <!nocheck>
+ , node-parse-asn1 <!nocheck>
+ , node-randombytes <!nocheck>
+ , node-tape <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-browserify-rsa
+Vcs-Git: https://salsa.debian.org/js-team/node-browserify-rsa.git
+Homepage: https://github.com/crypto-browserify/browserify-rsa
+Rules-Requires-Root: no
+
+Package: node-browserify-rsa
+Architecture: all
+Depends: ${misc:Depends}
+ , node-bn.js
+ , node-randombytes
+Description: RSA for browserify
+ RSA private decryption/signing using Chinese remainder and blinding.
+ .
+ Node.js is an event-based server-side JavaScript engine.

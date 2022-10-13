@@ -1,0 +1,50 @@
+node-browserify-rsa (4.1.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+
+ -- Yadd <yadd@debian.org>  Wed, 06 Oct 2021 18:29:31 +0200
+
+node-browserify-rsa (4.1.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.1
+  * New upstream version 4.1.0
+  * Update copyright, docs and test
+  * Remove lintian overrides
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 30 Nov 2020 16:57:37 +0100
+
+node-browserify-rsa (4.0.1-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Use dh-sequence-nodejs auto install
+  * Update lintian overrides
+  * Modernize debian/watch
+  * Enable upstream test
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 11 Nov 2020 08:18:26 +0100
+
+node-browserify-rsa (4.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #861650)
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 02 May 2017 14:59:27 +0530
